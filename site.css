@@ -1,0 +1,44 @@
+.card {
+    height: 175px;
+    margin: 10px;
+}
+
+.bg-table {
+    background-image: url("http://blackjackchic.com/wp-content/uploads/2015/09/Blackjack_background.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 250px;
+}
+
+.bg-bottom {
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.btn-primary {
+    background-color: darkslategray;
+    border: 2px solid white;
+    padding: 10px 10px;
+}
+.btn-primary:hover {
+    background-color: snow;
+    color: darkslategray;
+}
+
+h1, h3 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+}
+
+#winner {
+    color: orangered;
+    font-size: 25px;
+}

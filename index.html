@@ -1,13 +1,50 @@
 <html>
+
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>BlackJack</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="site.css">
 </head>
+
 <body>
-	
+
+	<div class="text-center bg-table">
+
+		<h1>Let Us Play!</h1>
+
+		<!-- Winner && Loser Result -->
+
+		<div id="winner" class="alert hidden"></div>
+
+		<!-- List of Buttons -->
+		<div class="row">
+			<button id="deal" class="btn btn-primary">Deal</button>
+			<button id="hit" class="btn btn-primary hidden">Hit</button>
+			<button id="stand" class="btn btn-primary hidden">Stand</button>
+			<button id="playAgain" class="btn btn-primary hidden">Play Again</button>
+		</div>
+
+		<h3>Dealer</h3>
+		<div id="dealerCards"> </div>
+		<br>
+		<h3>Player</h3>
+		<div id="playerCards"> </div>
+
+	</div>
+
+	<div class="bg-bottom text-center">
+		<p>Thanks For Playing!</p>
+	</div>
+
+
+	<!-- Would utilize if scoring is implemented  -->
+	<!-- <div class="bg-bottom text-center">
+		<div id="reset" class="btn btn-primary">Reset Score</div>
+	</div> -->
+
 	<script src="app.js"></script>
 </body>
+
 </html>
