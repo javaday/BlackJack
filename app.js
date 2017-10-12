@@ -46,7 +46,7 @@
 	var hitButton = document.getElementById("hit");
 	var standButton = document.getElementById("stand");
 	var playAgainButton = document.getElementById("playAgain");
-	var resetButton = document.getElementById("reset");
+	// var resetButton = document.getElementById("reset");
 	var playerCards = document.getElementById("playerCards");
 	var dealerCards = document.getElementById("dealerCards");
 	var winner = document.getElementById("winner")
@@ -62,7 +62,7 @@
 		hit(player);
 	});
 	playAgainButton.addEventListener("click", playAgain);
-	resetButton.addEventListener("click", reset);
+	// resetButton.addEventListener("click", reset);
 
 
 
